@@ -31,7 +31,7 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
-				<configuration>
+				<!-- <configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
@@ -44,7 +44,7 @@
 						<connectedAppClientSecret>0612De97a4D840c1b369f8ab04164909</connectedAppClientSecret>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
-				</configuration>
+				</configuration>-->
 			</plugin>
 		</plugins>
 	</build>
